@@ -14,6 +14,13 @@
 		EFDFE5FF2C1014EF002AF7CA /* SerenityJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE5FE2C1014EF002AF7CA /* SerenityJournalTests.swift */; };
 		EFDFE6092C1014EF002AF7CA /* SerenityJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE6082C1014EF002AF7CA /* SerenityJournalUITests.swift */; };
 		EFDFE60B2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE60A2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift */; };
+		EFDFE6182C101AEA002AF7CA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDFE6172C101AEA002AF7CA /* GoogleService-Info.plist */; };
+		EFDFE6272C1031F9002AF7CA /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE6262C1031F9002AF7CA /* Package.swift */; };
+		EFDFE62A2C103374002AF7CA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE6292C103374002AF7CA /* FirebaseAnalytics */; };
+		EFDFE62C2C103374002AF7CA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE62B2C103374002AF7CA /* FirebaseAuth */; };
+		EFDFE62E2C103374002AF7CA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE62D2C103374002AF7CA /* FirebaseFirestore */; };
+		EFDFE6302C103840002AF7CA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE62F2C103840002AF7CA /* LoginView.swift */; };
+		EFDFE6322C103872002AF7CA /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE6312C103872002AF7CA /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,10 @@
 		EFDFE6042C1014EF002AF7CA /* SerenityJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenityJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDFE6082C1014EF002AF7CA /* SerenityJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityJournalUITests.swift; sourceTree = "<group>"; };
 		EFDFE60A2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFDFE6172C101AEA002AF7CA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EFDFE6262C1031F9002AF7CA /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		EFDFE62F2C103840002AF7CA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFDFE6312C103872002AF7CA /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDFE62A2C103374002AF7CA /* FirebaseAnalytics in Frameworks */,
+				EFDFE62C2C103374002AF7CA /* FirebaseAuth in Frameworks */,
+				EFDFE62E2C103374002AF7CA /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,13 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24242202E6479E0C428CABDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EFDFE5E12C1014ED002AF7CA = {
 			isa = PBXGroup;
 			children = (
+				EFDFE6262C1031F9002AF7CA /* Package.swift */,
 				EFDFE5EC2C1014ED002AF7CA /* SerenityJournal */,
 				EFDFE5FD2C1014EF002AF7CA /* SerenityJournalTests */,
 				EFDFE6072C1014EF002AF7CA /* SerenityJournalUITests */,
 				EFDFE5EB2C1014ED002AF7CA /* Products */,
+				24242202E6479E0C428CABDA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +117,13 @@
 		EFDFE5EC2C1014ED002AF7CA /* SerenityJournal */ = {
 			isa = PBXGroup;
 			children = (
+				EFDFE62F2C103840002AF7CA /* LoginView.swift */,
 				EFDFE5ED2C1014ED002AF7CA /* SerenityJournalApp.swift */,
 				EFDFE5EF2C1014ED002AF7CA /* ContentView.swift */,
 				EFDFE5F12C1014EF002AF7CA /* Assets.xcassets */,
+				EFDFE6172C101AEA002AF7CA /* GoogleService-Info.plist */,
 				EFDFE5F32C1014EF002AF7CA /* Preview Content */,
+				EFDFE6312C103872002AF7CA /* SignupView.swift */,
 			);
 			path = SerenityJournal;
 			sourceTree = "<group>";
@@ -143,6 +169,11 @@
 			dependencies = (
 			);
 			name = SerenityJournal;
+			packageProductDependencies = (
+				EFDFE6292C103374002AF7CA /* FirebaseAnalytics */,
+				EFDFE62B2C103374002AF7CA /* FirebaseAuth */,
+				EFDFE62D2C103374002AF7CA /* FirebaseFirestore */,
+			);
 			productName = SerenityJournal;
 			productReference = EFDFE5EA2C1014ED002AF7CA /* SerenityJournal.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +246,9 @@
 				Base,
 			);
 			mainGroup = EFDFE5E12C1014ED002AF7CA;
+			packageReferences = (
+				EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = EFDFE5EB2C1014ED002AF7CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +267,7 @@
 			files = (
 				EFDFE5F52C1014EF002AF7CA /* Preview Assets.xcassets in Resources */,
 				EFDFE5F22C1014EF002AF7CA /* Assets.xcassets in Resources */,
+				EFDFE6182C101AEA002AF7CA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDFE6272C1031F9002AF7CA /* Package.swift in Sources */,
 				EFDFE5F02C1014ED002AF7CA /* ContentView.swift in Sources */,
+				EFDFE6302C103840002AF7CA /* LoginView.swift in Sources */,
 				EFDFE5EE2C1014ED002AF7CA /* SerenityJournalApp.swift in Sources */,
+				EFDFE6322C103872002AF7CA /* SignupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +461,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SerenityJournal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAnalyticsSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAppCheckInterop\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreExtension\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestoreInternal\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseSharedSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RecaptchaInterop\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FirebaseAnalytics/AdIdSupport\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleAppMeasurement/AdIdSupport\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleAppMeasurement/WithoutAdIdSupport\"",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,6 +520,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SerenityJournal/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAnalyticsSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAppCheckInterop\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreExtension\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestoreInternal\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseSharedSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RecaptchaInterop\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/FirebaseAnalytics/AdIdSupport\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleAppMeasurement/AdIdSupport\"",
+					"\"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleAppMeasurement/WithoutAdIdSupport\"",
+					"$(SRCROOT)",
+					"$(SRCROOT)/../",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -582,6 +682,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.27.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFDFE6292C103374002AF7CA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EFDFE62B2C103374002AF7CA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		EFDFE62D2C103374002AF7CA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EFDFE5E22C1014ED002AF7CA /* Project object */;
 }

@@ -1,17 +1,16 @@
-//
-//  SerenityJournalApp.swift
-//  SerenityJournal
-//
-//  Created by Nerelis Fernandez on 6/4/24.
-//
-
 import SwiftUI
+import FirebaseCore
 
 @main
 struct SerenityJournalApp: App {
+    init() {
+        FirebaseApp.configure()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }
+
