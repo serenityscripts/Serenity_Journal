@@ -16,11 +16,11 @@
 		EFDFE60B2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE60A2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift */; };
 		EFDFE6182C101AEA002AF7CA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFDFE6172C101AEA002AF7CA /* GoogleService-Info.plist */; };
 		EFDFE6272C1031F9002AF7CA /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE6262C1031F9002AF7CA /* Package.swift */; };
-		EFDFE62A2C103374002AF7CA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE6292C103374002AF7CA /* FirebaseAnalytics */; };
-		EFDFE62C2C103374002AF7CA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE62B2C103374002AF7CA /* FirebaseAuth */; };
-		EFDFE62E2C103374002AF7CA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE62D2C103374002AF7CA /* FirebaseFirestore */; };
 		EFDFE6302C103840002AF7CA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE62F2C103840002AF7CA /* LoginView.swift */; };
 		EFDFE6322C103872002AF7CA /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE6312C103872002AF7CA /* SignupView.swift */; };
+		EFDFE6352C104603002AF7CA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE6342C104603002AF7CA /* FirebaseAnalytics */; };
+		EFDFE6372C104603002AF7CA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE6362C104603002AF7CA /* FirebaseAuth */; };
+		EFDFE6392C104603002AF7CA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EFDFE6382C104603002AF7CA /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDFE62A2C103374002AF7CA /* FirebaseAnalytics in Frameworks */,
-				EFDFE62C2C103374002AF7CA /* FirebaseAuth in Frameworks */,
-				EFDFE62E2C103374002AF7CA /* FirebaseFirestore in Frameworks */,
+				EFDFE6352C104603002AF7CA /* FirebaseAnalytics in Frameworks */,
+				EFDFE6372C104603002AF7CA /* FirebaseAuth in Frameworks */,
+				EFDFE6392C104603002AF7CA /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,9 +170,9 @@
 			);
 			name = SerenityJournal;
 			packageProductDependencies = (
-				EFDFE6292C103374002AF7CA /* FirebaseAnalytics */,
-				EFDFE62B2C103374002AF7CA /* FirebaseAuth */,
-				EFDFE62D2C103374002AF7CA /* FirebaseFirestore */,
+				EFDFE6342C104603002AF7CA /* FirebaseAnalytics */,
+				EFDFE6362C104603002AF7CA /* FirebaseAuth */,
+				EFDFE6382C104603002AF7CA /* FirebaseFirestore */,
 			);
 			productName = SerenityJournal;
 			productReference = EFDFE5EA2C1014ED002AF7CA /* SerenityJournal.app */;
@@ -247,7 +247,7 @@
 			);
 			mainGroup = EFDFE5E12C1014ED002AF7CA;
 			packageReferences = (
-				EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EFDFE6332C104603002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = EFDFE5EB2C1014ED002AF7CA /* Products */;
 			projectDirPath = "";
@@ -684,7 +684,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		EFDFE6332C104603002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
@@ -695,19 +695,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EFDFE6292C103374002AF7CA /* FirebaseAnalytics */ = {
+		EFDFE6342C104603002AF7CA /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EFDFE6332C104603002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
 		};
-		EFDFE62B2C103374002AF7CA /* FirebaseAuth */ = {
+		EFDFE6362C104603002AF7CA /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EFDFE6332C104603002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		EFDFE62D2C103374002AF7CA /* FirebaseFirestore */ = {
+		EFDFE6382C104603002AF7CA /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EFDFE6282C103374002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EFDFE6332C104603002AF7CA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
