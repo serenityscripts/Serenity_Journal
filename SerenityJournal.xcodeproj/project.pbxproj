@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDFE5EE2C1014ED002AF7CA /* SerenityJournalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE5ED2C1014ED002AF7CA /* SerenityJournalApp.swift */; };
+		EFDFE5F02C1014ED002AF7CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE5EF2C1014ED002AF7CA /* ContentView.swift */; };
+		EFDFE5F22C1014EF002AF7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDFE5F12C1014EF002AF7CA /* Assets.xcassets */; };
+		EFDFE5F52C1014EF002AF7CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDFE5F42C1014EF002AF7CA /* Preview Assets.xcassets */; };
+		EFDFE5FF2C1014EF002AF7CA /* SerenityJournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE5FE2C1014EF002AF7CA /* SerenityJournalTests.swift */; };
+		EFDFE6092C1014EF002AF7CA /* SerenityJournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE6082C1014EF002AF7CA /* SerenityJournalUITests.swift */; };
+		EFDFE60B2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDFE60A2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDFE5FB2C1014EF002AF7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDFE5E22C1014ED002AF7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDFE5E92C1014ED002AF7CA;
+			remoteInfo = SerenityJournal;
+		};
+		EFDFE6052C1014EF002AF7CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDFE5E22C1014ED002AF7CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDFE5E92C1014ED002AF7CA;
+			remoteInfo = SerenityJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDFE5EA2C1014ED002AF7CA /* SerenityJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerenityJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFE5ED2C1014ED002AF7CA /* SerenityJournalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityJournalApp.swift; sourceTree = "<group>"; };
+		EFDFE5EF2C1014ED002AF7CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFDFE5F12C1014EF002AF7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDFE5F42C1014EF002AF7CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFDFE5FA2C1014EF002AF7CA /* SerenityJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenityJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFE5FE2C1014EF002AF7CA /* SerenityJournalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityJournalTests.swift; sourceTree = "<group>"; };
+		EFDFE6042C1014EF002AF7CA /* SerenityJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerenityJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDFE6082C1014EF002AF7CA /* SerenityJournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityJournalUITests.swift; sourceTree = "<group>"; };
+		EFDFE60A2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerenityJournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDFE5E72C1014ED002AF7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFE5F72C1014EF002AF7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFE6012C1014EF002AF7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDFE5E12C1014ED002AF7CA = {
+			isa = PBXGroup;
+			children = (
+				EFDFE5EC2C1014ED002AF7CA /* SerenityJournal */,
+				EFDFE5FD2C1014EF002AF7CA /* SerenityJournalTests */,
+				EFDFE6072C1014EF002AF7CA /* SerenityJournalUITests */,
+				EFDFE5EB2C1014ED002AF7CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDFE5EB2C1014ED002AF7CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFE5EA2C1014ED002AF7CA /* SerenityJournal.app */,
+				EFDFE5FA2C1014EF002AF7CA /* SerenityJournalTests.xctest */,
+				EFDFE6042C1014EF002AF7CA /* SerenityJournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDFE5EC2C1014ED002AF7CA /* SerenityJournal */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFE5ED2C1014ED002AF7CA /* SerenityJournalApp.swift */,
+				EFDFE5EF2C1014ED002AF7CA /* ContentView.swift */,
+				EFDFE5F12C1014EF002AF7CA /* Assets.xcassets */,
+				EFDFE5F32C1014EF002AF7CA /* Preview Content */,
+			);
+			path = SerenityJournal;
+			sourceTree = "<group>";
+		};
+		EFDFE5F32C1014EF002AF7CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFE5F42C1014EF002AF7CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFDFE5FD2C1014EF002AF7CA /* SerenityJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFE5FE2C1014EF002AF7CA /* SerenityJournalTests.swift */,
+			);
+			path = SerenityJournalTests;
+			sourceTree = "<group>";
+		};
+		EFDFE6072C1014EF002AF7CA /* SerenityJournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDFE6082C1014EF002AF7CA /* SerenityJournalUITests.swift */,
+				EFDFE60A2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift */,
+			);
+			path = SerenityJournalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDFE5E92C1014ED002AF7CA /* SerenityJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDFE60E2C1014EF002AF7CA /* Build configuration list for PBXNativeTarget "SerenityJournal" */;
+			buildPhases = (
+				EFDFE5E62C1014ED002AF7CA /* Sources */,
+				EFDFE5E72C1014ED002AF7CA /* Frameworks */,
+				EFDFE5E82C1014ED002AF7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerenityJournal;
+			productName = SerenityJournal;
+			productReference = EFDFE5EA2C1014ED002AF7CA /* SerenityJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDFE5F92C1014EF002AF7CA /* SerenityJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDFE6112C1014EF002AF7CA /* Build configuration list for PBXNativeTarget "SerenityJournalTests" */;
+			buildPhases = (
+				EFDFE5F62C1014EF002AF7CA /* Sources */,
+				EFDFE5F72C1014EF002AF7CA /* Frameworks */,
+				EFDFE5F82C1014EF002AF7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDFE5FC2C1014EF002AF7CA /* PBXTargetDependency */,
+			);
+			name = SerenityJournalTests;
+			productName = SerenityJournalTests;
+			productReference = EFDFE5FA2C1014EF002AF7CA /* SerenityJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDFE6032C1014EF002AF7CA /* SerenityJournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDFE6142C1014EF002AF7CA /* Build configuration list for PBXNativeTarget "SerenityJournalUITests" */;
+			buildPhases = (
+				EFDFE6002C1014EF002AF7CA /* Sources */,
+				EFDFE6012C1014EF002AF7CA /* Frameworks */,
+				EFDFE6022C1014EF002AF7CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDFE6062C1014EF002AF7CA /* PBXTargetDependency */,
+			);
+			name = SerenityJournalUITests;
+			productName = SerenityJournalUITests;
+			productReference = EFDFE6042C1014EF002AF7CA /* SerenityJournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDFE5E22C1014ED002AF7CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EFDFE5E92C1014ED002AF7CA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EFDFE5F92C1014EF002AF7CA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFDFE5E92C1014ED002AF7CA;
+					};
+					EFDFE6032C1014EF002AF7CA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EFDFE5E92C1014ED002AF7CA;
+					};
+				};
+			};
+			buildConfigurationList = EFDFE5E52C1014ED002AF7CA /* Build configuration list for PBXProject "SerenityJournal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDFE5E12C1014ED002AF7CA;
+			productRefGroup = EFDFE5EB2C1014ED002AF7CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDFE5E92C1014ED002AF7CA /* SerenityJournal */,
+				EFDFE5F92C1014EF002AF7CA /* SerenityJournalTests */,
+				EFDFE6032C1014EF002AF7CA /* SerenityJournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDFE5E82C1014ED002AF7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFE5F52C1014EF002AF7CA /* Preview Assets.xcassets in Resources */,
+				EFDFE5F22C1014EF002AF7CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFE5F82C1014EF002AF7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFE6022C1014EF002AF7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDFE5E62C1014ED002AF7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFE5F02C1014ED002AF7CA /* ContentView.swift in Sources */,
+				EFDFE5EE2C1014ED002AF7CA /* SerenityJournalApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFE5F62C1014EF002AF7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFE5FF2C1014EF002AF7CA /* SerenityJournalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFE6002C1014EF002AF7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDFE6092C1014EF002AF7CA /* SerenityJournalUITests.swift in Sources */,
+				EFDFE60B2C1014EF002AF7CA /* SerenityJournalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDFE5FC2C1014EF002AF7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDFE5E92C1014ED002AF7CA /* SerenityJournal */;
+			targetProxy = EFDFE5FB2C1014EF002AF7CA /* PBXContainerItemProxy */;
+		};
+		EFDFE6062C1014EF002AF7CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDFE5E92C1014ED002AF7CA /* SerenityJournal */;
+			targetProxy = EFDFE6052C1014EF002AF7CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFDFE60C2C1014EF002AF7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDFE60D2C1014EF002AF7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDFE60F2C1014EF002AF7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerenityJournal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peacepier.SerenityJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDFE6102C1014EF002AF7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SerenityJournal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peacepier.SerenityJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFDFE6122C1014EF002AF7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peacepier.SerenityJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerenityJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerenityJournal";
+			};
+			name = Debug;
+		};
+		EFDFE6132C1014EF002AF7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peacepier.SerenityJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerenityJournal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SerenityJournal";
+			};
+			name = Release;
+		};
+		EFDFE6152C1014EF002AF7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peacepier.SerenityJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerenityJournal;
+			};
+			name = Debug;
+		};
+		EFDFE6162C1014EF002AF7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peacepier.SerenityJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerenityJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDFE5E52C1014ED002AF7CA /* Build configuration list for PBXProject "SerenityJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFE60C2C1014EF002AF7CA /* Debug */,
+				EFDFE60D2C1014EF002AF7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDFE60E2C1014EF002AF7CA /* Build configuration list for PBXNativeTarget "SerenityJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFE60F2C1014EF002AF7CA /* Debug */,
+				EFDFE6102C1014EF002AF7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDFE6112C1014EF002AF7CA /* Build configuration list for PBXNativeTarget "SerenityJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFE6122C1014EF002AF7CA /* Debug */,
+				EFDFE6132C1014EF002AF7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDFE6142C1014EF002AF7CA /* Build configuration list for PBXNativeTarget "SerenityJournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDFE6152C1014EF002AF7CA /* Debug */,
+				EFDFE6162C1014EF002AF7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDFE5E22C1014ED002AF7CA /* Project object */;
+}
